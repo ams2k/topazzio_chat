@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="12"/>
+    <BuildModes Active="Linux"/>
+    <Units>
+      <Unit>
+        <Filename Value="AppChat.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="54" Y="7"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="views/view.main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="View.Main"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="188"/>
+        <CursorPos X="69" Y="194"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="views/view.chat.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmChat"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="View.Chat"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="1105"/>
+        <CursorPos X="32" Y="1116"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="objects/chatmodule.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ChatModule"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="471"/>
+        <CursorPos X="3" Y="477"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="util/util.easythead.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Util.EasyThead"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="objects/chatcardmessage.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ChatCardMessage"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="156"/>
+        <CursorPos X="41" Y="190"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="objects/chatlayoutmanager.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ChatLayoutManager"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="258"/>
+        <CursorPos X="12" Y="244"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="objects/chatcardfile.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ChatCardFile"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="44" Y="162"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="objects/chatuserinfo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ChatUserInfo"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="3" Y="4"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="util/util.messagepopup.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Util.MessagePopup"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="views/view.messagequery.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MessageQuery"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="View.MessageQuery"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="92"/>
+        <CursorPos X="23" Y="92"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.usuario.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Service.Usuario"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="293"/>
+        <CursorPos X="3" Y="299"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/usuario.database.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Usuario.Database"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="70"/>
+        <CursorPos X="79" Y="15"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="util/util.circularprogress.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Util.CircularProgress"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="util/util.imagem.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Util.Imagem"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="views/view.controleusuarios.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmControleUsuarios"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="View.ControleUsuarios"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="11" Y="5"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="views/view.login.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmLogin"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="View.Login"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="231"/>
+        <CursorPos X="3" Y="239"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="views/view.chatusuarios.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmChatUsuarios"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="View.ChatUsuarios"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="30"/>
+        <CursorPos X="22" Y="40"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="objects/chatuserselect.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ChatUserSelect"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="3" Y="6"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="objects/chatcardinfo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ChatCardInfo"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="53" Y="6"/>
+        <UsageCount Value="176"/>
+      </Unit>
+      <Unit>
+        <Filename Value="views/view.chathistory.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmChatHistory"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="View.ChatHistory"/>
+        <EditorIndex Value="3"/>
+        <CursorPos Y="7"/>
+        <UsageCount Value="53"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="views/view.chatusuariosgrid.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmChatUsuariosGrid"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="View.ChatUsuariosGrid"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="52"/>
+        <CursorPos X="57" Y="46"/>
+        <UsageCount Value="23"/>
+      </Unit>
+      <Unit>
+        <Filename Value="util/util.ftpclient.pas"/>
+        <UnitName Value="Util.FTPClient"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="33" Y="10"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../../lazarus-ide/config_lazarus/onlinepackagemanager/packages/lnet/lib/lftp.pp"/>
+        <UnitName Value="lFTP"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="30"/>
+        <CursorPos X="3" Y="41"/>
+        <UsageCount Value="7"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../../lazarus-ide/fpcsrc/rtl/objpas/sysutils/dati.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="263"/>
+        <CursorPos X="3" Y="270"/>
+        <UsageCount Value="6"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../../lazarus-ide/fpcsrc/rtl/objpas/sysutils/sysstr.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1592"/>
+        <CursorPos X="30" Y="1142"/>
+        <UsageCount Value="6"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../../lazarus-ide/lazarus/lcl/include/control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="697"/>
+        <CursorPos Y="706"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../../lazarus-ide/lazarus/lcl/interfaces/gtk2/gtk2winapi.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="6028"/>
+        <CursorPos Y="6039"/>
+        <UsageCount Value="7"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../../lazarus-ide/lazarus/components/lazutils/laztracer.pas"/>
+        <UnitName Value="LazTracer"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="38"/>
+        <CursorPos Y="58"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../../lazarus-ide/config_lazarus/onlinepackagemanager/packages/lnet/lib/lnet.pp"/>
+        <UnitName Value="lNet"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1415"/>
+        <CursorPos X="3" Y="1417"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../morderui-packages/LabelPlusPackage/labelplus.pas"/>
+        <UnitName Value="LabelPlus"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="413"/>
+        <CursorPos X="23" Y="419"/>
+        <UsageCount Value="1"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../../lazarus-ide/lazarus/lcl/include/screen.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1121"/>
+        <CursorPos Y="1135"/>
+        <UsageCount Value="1"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../../lazarus-ide/config_lazarus/onlinepackagemanager/packages/gifanim/gifanim.pas"/>
+        <UnitName Value="GifAnim"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="244"/>
+        <CursorPos X="6" Y="124"/>
+        <UsageCount Value="2"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../../lazarus-ide/lazarus/lcl/interfaces/gtk2/gtk2widgetset.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1528"/>
+        <CursorPos X="3" Y="1537"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../../lazarus-ide/fpcsrc/packages/fcl-json/src/fpjson.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3177"/>
+        <CursorPos X="3" Y="3181"/>
+        <UsageCount Value="5"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../../lazarus-ide/lazarus/components/lazutils/dynhasharray.pp"/>
+        <UnitName Value="DynHashArray"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="628"/>
+        <CursorPos Y="642"/>
+        <UsageCount Value="2"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../../lazarus-ide/lazarus/lcl/include/customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2981"/>
+        <CursorPos X="3" Y="2992"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../../lazarus-ide/lazarus/lcl/interfaces/gtk2/gtk2proc.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="9294"/>
+        <CursorPos Y="9307"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../../lazarus-ide/lazarus/lcl/include/wincontrol.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="6164"/>
+        <CursorPos X="3" Y="6170"/>
+        <UsageCount Value="6"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../../lazarus-ide/lazarus/lcl/include/customcontrol.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="65"/>
+        <CursorPos X="3" Y="76"/>
+        <UsageCount Value="2"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../../lazarus-ide/fpcsrc/rtl/inc/objpash.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="193"/>
+        <CursorPos X="23" Y="206"/>
+        <UsageCount Value="2"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../../lazarus-ide/lazarus/lcl/extctrls.pp"/>
+        <UnitName Value="ExtCtrls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="188"/>
+        <CursorPos X="14" Y="199"/>
+        <UsageCount Value="6"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../../lazarus-ide/lazarus/lcl/customtimer.pas"/>
+        <UnitName Value="CustomTimer"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="42"/>
+        <CursorPos X="14" Y="53"/>
+        <UsageCount Value="6"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../../lazarus-ide/fpcsrc/rtl/objpas/classes/classesh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="107"/>
+        <CursorPos X="3" Y="118"/>
+        <UsageCount Value="6"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../../lazarus-ide/lazarus/lcl/controls.pp"/>
+        <UnitName Value="Controls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="209"/>
+        <CursorPos X="3" Y="221"/>
+        <UsageCount Value="7"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../../lazarus-ide/lazarus/lcl/comctrls.pp"/>
+        <UnitName Value="ComCtrls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1824"/>
+        <CursorPos X="18" Y="1832"/>
+        <UsageCount Value="8"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../../lazarus-ide/lazarus/lcl/include/progressbar.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="262"/>
+        <CursorPos X="3" Y="271"/>
+        <UsageCount Value="8"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../../lazarus-ide/lazarus/lcl/lclclasses.pp"/>
+        <UnitName Value="LCLClasses"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="134"/>
+        <CursorPos X="14" Y="62"/>
+        <UsageCount Value="8"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../../lazarus-ide/lazarus/lcl/include/intfbasewinapi.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="400"/>
+        <CursorPos X="92" Y="2001"/>
+        <UsageCount Value="8"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../../lazarus-ide/lazarus/lcl/widgetset/wscomctrls.pp"/>
+        <UnitName Value="WSComCtrls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="906"/>
+        <CursorPos Y="920"/>
+        <UsageCount Value="8"/>
+      </Unit>
+      <Unit>
+        <Filename Value="views/view.main.lfm"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="35"/>
+        <CursorPos X="16" Y="40"/>
+        <UsageCount Value="8"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../morderui-packages/MaskedEditPlusPackage/maskededitplus.pas"/>
+        <UnitName Value="MaskedEditPlus"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="181"/>
+        <CursorPos Y="143"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="views/view.controleusuarios.lfm"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="379"/>
+        <CursorPos X="39" Y="388"/>
+        <UsageCount Value="8"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="views/view.chat.lfm"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="755"/>
+        <UsageCount Value="9"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../../lazarus-ide/lazarus/lcl/include/rasterimage.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="36"/>
+        <CursorPos Y="49"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="views/view.chatusuarios_grid.zip"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../../lazarus-ide/lazarus/lcl/include/application.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1636"/>
+        <CursorPos X="3" Y="1642"/>
+        <UsageCount Value="10"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="views/view.chat.pas"/>
+        <Caret Line="696" Column="11" TopLine="682"/>
+      </Position>
+      <Position>
+        <Filename Value="views/view.chat.pas"/>
+        <Caret Line="678" Column="40" TopLine="666"/>
+      </Position>
+      <Position>
+        <Filename Value="views/view.chat.pas"/>
+        <Caret Line="687" Column="15" TopLine="669"/>
+      </Position>
+      <Position>
+        <Filename Value="views/view.chat.pas"/>
+        <Caret Line="680" Column="7" TopLine="673"/>
+      </Position>
+      <Position>
+        <Filename Value="views/view.chat.pas"/>
+        <Caret Line="686" TopLine="686"/>
+      </Position>
+      <Position>
+        <Filename Value="views/view.chat.pas"/>
+        <Caret Line="696" Column="32" TopLine="677"/>
+      </Position>
+      <Position>
+        <Filename Value="views/view.chat.pas"/>
+        <Caret Line="583" Column="3" TopLine="580"/>
+      </Position>
+      <Position>
+        <Filename Value="views/view.chat.pas"/>
+        <Caret Line="1220" Column="38" TopLine="1209"/>
+      </Position>
+      <Position>
+        <Filename Value="views/view.chat.pas"/>
+        <Caret Line="696" Column="3" TopLine="677"/>
+      </Position>
+      <Position>
+        <Filename Value="views/view.chat.pas"/>
+        <Caret Line="691" Column="12" TopLine="684"/>
+      </Position>
+      <Position>
+        <Filename Value="views/view.chat.pas"/>
+        <Caret Line="696" Column="3" TopLine="686"/>
+      </Position>
+      <Position>
+        <Filename Value="views/view.chat.pas"/>
+        <Caret Line="697" TopLine="680"/>
+      </Position>
+      <Position>
+        <Filename Value="views/view.chat.pas"/>
+        <Caret Line="172" Column="29" TopLine="165"/>
+      </Position>
+      <Position>
+        <Filename Value="views/view.chathistory.pas"/>
+        <Caret Line="98" TopLine="87"/>
+      </Position>
+      <Position>
+        <Filename Value="views/view.chathistory.pas"/>
+        <Caret Line="614" TopLine="598"/>
+      </Position>
+      <Position>
+        <Filename Value="views/view.chathistory.pas"/>
+        <Caret Line="92" Column="28" TopLine="85"/>
+      </Position>
+      <Position>
+        <Filename Value="views/view.chathistory.pas"/>
+        <Caret Line="419" Column="32" TopLine="395"/>
+      </Position>
+      <Position>
+        <Filename Value="views/view.main.pas"/>
+        <Caret Line="87" Column="32" TopLine="87"/>
+      </Position>
+      <Position>
+        <Filename Value="views/view.main.pas"/>
+        <Caret Line="86" Column="32" TopLine="86"/>
+      </Position>
+      <Position>
+        <Filename Value="views/view.main.pas"/>
+        <Caret Line="201" TopLine="190"/>
+      </Position>
+      <Position>
+        <Filename Value="views/view.main.pas"/>
+        <Caret Line="215" Column="67" TopLine="204"/>
+      </Position>
+      <Position>
+        <Filename Value="views/view.main.pas"/>
+        <Caret Line="59" Column="29" TopLine="47"/>
+      </Position>
+      <Position>
+        <Filename Value="views/view.chat.pas"/>
+        <Caret Line="207" Column="24" TopLine="202"/>
+      </Position>
+      <Position>
+        <Filename Value="views/view.chat.pas"/>
+        <Caret Line="207" Column="24" TopLine="202"/>
+      </Position>
+      <Position>
+        <Filename Value="views/view.chathistory.pas"/>
+        <Caret Line="5" Column="43"/>
+      </Position>
+      <Position>
+        <Filename Value="views/view.chat.pas"/>
+        <Caret Line="253" Column="20" TopLine="235"/>
+      </Position>
+      <Position>
+        <Filename Value="views/view.chat.pas"/>
+        <Caret Line="690" Column="28" TopLine="674"/>
+      </Position>
+      <Position>
+        <Filename Value="views/view.chat.pas"/>
+        <Caret Line="574" Column="27" TopLine="550"/>
+      </Position>
+      <Position>
+        <Filename Value="views/view.main.pas"/>
+        <Caret Line="226" Column="26" TopLine="213"/>
+      </Position>
+      <Position>
+        <Filename Value="views/view.main.pas"/>
+        <Caret Line="194" Column="72" TopLine="188"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

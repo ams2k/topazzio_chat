@@ -1,0 +1,122 @@
+object frmChatUsuarios: TfrmChatUsuarios
+  Left = 391
+  Height = 506
+  Top = 250
+  Width = 309
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'USUÁRIOS'
+  ClientHeight = 506
+  ClientWidth = 309
+  Color = 15263978
+  Font.Height = -11
+  Font.Name = 'Sans,default'
+  Position = poOwnerFormCenter
+  LCLVersion = '4.4.0.0'
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnShow = FormShow
+  object panTitulo: TPanel
+    Left = 0
+    Height = 44
+    Top = 0
+    Width = 309
+    Align = alTop
+    BevelOuter = bvNone
+    BorderStyle = bsSingle
+    ClientHeight = 42
+    ClientWidth = 307
+    Color = 12426557
+    Font.Color = clWhite
+    Font.Height = -19
+    ParentBackground = False
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 0
+    object lblLineTop: TLabel
+      Left = 0
+      Height = 1
+      Top = 41
+      Width = 307
+      Align = alBottom
+      AutoSize = False
+      Color = 10427400
+      ParentColor = False
+      Transparent = False
+    end
+    object lblTitulo2: TLabel
+      Left = 2
+      Height = 27
+      Top = 6
+      Width = 307
+      Alignment = taCenter
+      Anchors = [akTop, akLeft, akRight]
+      AutoSize = False
+      Caption = 'CONVIDAR USUÁRIO'
+      Font.Color = clBlack
+      Font.Height = -19
+      ParentFont = False
+    end
+    object lblTitulo1: TLabel
+      Left = 0
+      Height = 27
+      Top = 8
+      Width = 307
+      Alignment = taCenter
+      Anchors = [akTop, akLeft, akRight]
+      AutoSize = False
+      Caption = 'CONVIDAR USUÁRIO'
+    end
+  end
+  object btnRetornar: TSpeedButton
+    Left = 64
+    Height = 35
+    Top = 466
+    Width = 180
+    Caption = 'Confirmar Seleção'
+    Images = frmMain.imgMenuItens
+    ImageIndex = 8
+    Spacing = 10
+    OnClick = btnRetornarClick
+  end
+  object scrConvidados: TScrollBox
+    Left = 4
+    Height = 192
+    Top = 48
+    Width = 300
+    HorzScrollBar.Page = 1
+    VertScrollBar.Page = 1
+    Color = clWhite
+    ParentBackground = False
+    ParentColor = False
+    TabOrder = 1
+    OnResize = scrConvidadosResize
+  end
+  object imgIcons30: TImageList
+    Height = 30
+    Width = 30
+    Left = 136
+    Top = 144
+    Bitmap = {
+      4C7A020000001E0000001E0000002E0200000000000078DAED57C14EC240102D
+      178CB45CF023C06F90A347FC00F0A250BE43F80430E0BD9C247E0670F313E428
+      98C85D3050A7C9DB64D2D0B2BBED96C474929734EDEEBCEEECECEC3CCB92329B
+      7047181216842FC28EF0435813668401C694ACE47645E8C3B72F89E09F7A98AB
+      6A05428BB062FEBE091EA143B82154811BBCF330468CFF2434E14BC62E082F84
+      03E67FC0AF2331D7C1D825E6063E4684A204E71BE6ECB167B646BC1CCCDDC3D7
+      6B0C7701EBF4912F0F0A318AF217F8D8C2E728C2DF3DE2B2C7F8B4EC113E0FD8
+      EF70DE8A1C1A245CE7B1750F59AEF13CEFB31CB2ADF4CD81EF80E309EF4AEC7C
+      762C73E68223E0BA448D11E7D336C81BAC7903AE068BBD6799378FE5D0228318
+      87633D433DF551EF4C5B9DEDF12F9EAB19F0D6585DCA92F71A5CBB33C6F91C79
+      35CFF81C4DD839E275C3C9B06EF03AE91AE4ED8263C57A30712F2C0DADB9CC7A
+      905E86F7E033BB072BA1EF2D43F77E3BE6DE17FF35C67F6DD12724ED73DA127D
+      8E85DE6BCAFABAA1E67E97115BD1D74DD133C65911EB3EB05C7315FAD86EA88F
+      1D4BF4B13C464DE481E8C337A82D2EEA5D0DF5B68E7713763EC579696AEE5505
+      79AFA253D63897951472B2841A33406D5D235FC4BD32C7B7464ABA2CD783B91E
+      CCF560AE078DEBC1DBF7BE1F204B3D283823B88DE8C13067C49A53D583929C4A
+      7AF0841F154E693D78CA9722A7B41E8CF3A9C129AD07A37C6B722AE9C1631C9A
+      9CCA7A30254E2D3D9802A7B61E4CC099480F26E0CCF560AE07733DF88FF4E01F
+      AFE037FF
+    }
+  end
+end

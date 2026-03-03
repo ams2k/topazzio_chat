@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="12"/>
+    <General>
+      <SessionStorage Value="InProjectDir"/>
+      <Title Value="AppChat"/>
+      <Scaled Value="True"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <XPManifest>
+        <DpiAware Value="True"/>
+      </XPManifest>
+      <Icon Value="0"/>
+    </General>
+    <BuildModes>
+      <Item Name="Linux" Default="True"/>
+      <Item Name="Windows">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <Target>
+            <Filename Value="../release/windows/AppChat.exe"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <OtherUnitFiles Value="views;datamodule;util;objects;services"/>
+            <UnitOutputDirectory Value="../temp/$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <CodeGeneration>
+            <SmartLinkUnit Value="True"/>
+            <TargetCPU Value="x86_64"/>
+            <TargetOS Value="win64"/>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <DebugInfoType Value="dsDwarf3"/>
+            </Debugging>
+            <LinkSmart Value="True"/>
+            <Options>
+              <Win32>
+                <GraphicApplication Value="True"/>
+              </Win32>
+            </Options>
+          </Linking>
+        </CompilerOptions>
+      </Item>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+    <RunParams>
+      <FormatVersion Value="2"/>
+    </RunParams>
+    <RequiredPackages>
+      <Item>
+        <PackageName Value="lnetvisual"/>
+      </Item>
+      <Item>
+        <PackageName Value="CheckboxPlusPackage"/>
+      </Item>
+      <Item>
+        <PackageName Value="DBGridPlusPackage"/>
+      </Item>
+      <Item>
+        <PackageName Value="MaskedEditPlusPackage"/>
+      </Item>
+      <Item>
+        <PackageName Value="BGRABitmapPack"/>
+      </Item>
+      <Item>
+        <PackageName Value="zcomponentdesign"/>
+      </Item>
+      <Item>
+        <PackageName Value="zcomponent"/>
+      </Item>
+      <Item>
+        <PackageName Value="lnetbase"/>
+      </Item>
+      <Item>
+        <PackageName Value="LCL"/>
+      </Item>
+    </RequiredPackages>
+    <Units>
+      <Unit>
+        <Filename Value="AppChat.lpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="views/view.main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="View.Main"/>
+      </Unit>
+      <Unit>
+        <Filename Value="views/view.chat.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmChat"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="View.Chat"/>
+      </Unit>
+      <Unit>
+        <Filename Value="objects/chatmodule.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ChatModule"/>
+      </Unit>
+      <Unit>
+        <Filename Value="util/util.easythead.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Util.EasyThead"/>
+      </Unit>
+      <Unit>
+        <Filename Value="objects/chatcardmessage.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ChatCardMessage"/>
+      </Unit>
+      <Unit>
+        <Filename Value="objects/chatlayoutmanager.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ChatLayoutManager"/>
+      </Unit>
+      <Unit>
+        <Filename Value="objects/chatcardfile.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ChatCardFile"/>
+      </Unit>
+      <Unit>
+        <Filename Value="objects/chatuserinfo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ChatUserInfo"/>
+      </Unit>
+      <Unit>
+        <Filename Value="util/util.messagepopup.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Util.MessagePopup"/>
+      </Unit>
+      <Unit>
+        <Filename Value="views/view.messagequery.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MessageQuery"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="View.MessageQuery"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.usuario.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Service.Usuario"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/usuario.database.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Usuario.Database"/>
+      </Unit>
+      <Unit>
+        <Filename Value="util/util.circularprogress.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Util.CircularProgress"/>
+      </Unit>
+      <Unit>
+        <Filename Value="util/util.imagem.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Util.Imagem"/>
+      </Unit>
+      <Unit>
+        <Filename Value="views/view.controleusuarios.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmControleUsuarios"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="View.ControleUsuarios"/>
+      </Unit>
+      <Unit>
+        <Filename Value="views/view.login.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmLogin"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="View.Login"/>
+      </Unit>
+      <Unit>
+        <Filename Value="views/view.chatusuarios.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmChatUsuarios"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="View.ChatUsuarios"/>
+      </Unit>
+      <Unit>
+        <Filename Value="objects/chatuserselect.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ChatUserSelect"/>
+      </Unit>
+      <Unit>
+        <Filename Value="objects/chatcardinfo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ChatCardInfo"/>
+      </Unit>
+      <Unit>
+        <Filename Value="views/view.chathistory.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmChatHistory"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="View.ChatHistory"/>
+      </Unit>
+      <Unit>
+        <Filename Value="views/view.chatusuariosgrid.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmChatUsuariosGrid"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="View.ChatUsuariosGrid"/>
+      </Unit>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <Target>
+      <Filename Value="../release/linux/AppChat"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value="views;datamodule;util;objects;services"/>
+      <UnitOutputDirectory Value="../temp/$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <CodeGeneration>
+      <SmartLinkUnit Value="True"/>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <DebugInfoType Value="dsDwarf3"/>
+      </Debugging>
+      <LinkSmart Value="True"/>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions>
+      <Item>
+        <Name Value="EAbort"/>
+      </Item>
+      <Item>
+        <Name Value="ECodetoolError"/>
+      </Item>
+      <Item>
+        <Name Value="EFOpenError"/>
+      </Item>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

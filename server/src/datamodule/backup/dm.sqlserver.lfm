@@ -1,0 +1,16 @@
+object DMServer: TDMServer
+  OnCreate = DataModuleCreate
+  OnDestroy = DataModuleDestroy
+  OldCreateOrder = False
+  Height = 135
+  HorizontalOffset = 366
+  VerticalOffset = 31
+  Width = 188
+  object Connection: TZConnection
+    ControlsCodePage = cCP_UTF8
+    DisableSavepoints = False
+    Port = 0
+    Left = 61
+    Top = 47
+  end
+end

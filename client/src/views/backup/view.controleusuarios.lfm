@@ -1,0 +1,418 @@
+object frmControleUsuarios: TfrmControleUsuarios
+  Left = 383
+  Height = 527
+  Top = 250
+  Width = 649
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Controle de Usuários'
+  ClientHeight = 527
+  ClientWidth = 649
+  Font.Height = -11
+  Font.Name = 'Sans,default'
+  Position = poScreenCenter
+  LCLVersion = '4.4.0.0'
+  OnClose = FormClose
+  OnShow = FormShow
+  object panTitulo: TPanel
+    Left = 0
+    Height = 50
+    Top = 0
+    Width = 649
+    Align = alTop
+    BevelOuter = bvNone
+    ClientHeight = 50
+    ClientWidth = 649
+    Color = 12426557
+    Font.Color = clWhite
+    Font.Height = -19
+    ParentBackground = False
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 6
+    object lblLinha: TLabel
+      Left = 0
+      Height = 1
+      Top = 49
+      Width = 649
+      Align = alBottom
+      Color = 10817552
+      ParentColor = False
+      Transparent = False
+    end
+    object lblTitulo1: TLabel
+      AnchorSideRight.Side = asrBottom
+      AnchorSideBottom.Side = asrBottom
+      Left = 1
+      Height = 27
+      Top = 8
+      Width = 651
+      Alignment = taCenter
+      Anchors = [akTop, akLeft, akRight]
+      AutoSize = False
+      Caption = 'USUÁRIOS'
+      Font.Color = clBlack
+      Font.Height = -19
+      ParentFont = False
+    end
+    object lblTitulo2: TLabel
+      AnchorSideRight.Side = asrBottom
+      AnchorSideBottom.Side = asrBottom
+      Left = 0
+      Height = 27
+      Top = 10
+      Width = 649
+      Alignment = taCenter
+      Anchors = [akTop, akLeft, akRight]
+      AutoSize = False
+      Caption = 'USUÁRIOS'
+      Font.Color = clWhite
+      Font.Height = -19
+      ParentFont = False
+    end
+  end
+  object panFoto: TPanel
+    Left = 473
+    Height = 169
+    Top = 56
+    Width = 168
+    BevelOuter = bvNone
+    BorderWidth = 1
+    BorderStyle = bsSingle
+    ClientHeight = 167
+    ClientWidth = 166
+    Color = clWhite
+    ParentBackground = False
+    ParentColor = False
+    TabOrder = 7
+    object imgFoto: TImage
+      AnchorSideRight.Side = asrBottom
+      AnchorSideBottom.Side = asrBottom
+      Left = 4
+      Height = 155
+      Top = 4
+      Width = 155
+      Anchors = [akTop, akLeft, akRight, akBottom]
+      Center = True
+      Stretch = True
+      Transparent = True
+    end
+  end
+  object btnCarregarFoto: TSpeedButton
+    Left = 473
+    Height = 35
+    Hint = 'CARREGAR FOTO'
+    Top = 228
+    Width = 83
+    Images = frmMain.imgMenuItens
+    ImageIndex = 12
+    Spacing = 6
+    ShowHint = True
+    ParentShowHint = False
+    OnClick = btnCarregarFotoClick
+  end
+  object btnLimparFoto: TSpeedButton
+    Left = 558
+    Height = 35
+    Hint = 'EXCLUIR FOTO'
+    Top = 228
+    Width = 83
+    Images = frmMain.imgMenuItens
+    ImageIndex = 5
+    Spacing = 6
+    ShowHint = True
+    ParentShowHint = False
+    OnClick = btnLimparFotoClick
+  end
+  object dbgUsuarios: TDBGridPlus
+    Left = 10
+    Height = 147
+    Top = 336
+    Width = 631
+    AlternateColor = 15722462
+    Color = 15658734
+    Columns = <    
+      item
+        Alignment = taCenter
+        Font.Height = -11
+        Font.Name = 'Sans,default'
+        Title.Alignment = taCenter
+        Title.Font.Color = clWhite
+        Title.Font.Height = -11
+        Title.Font.Name = 'Sans,default'
+        Title.Caption = 'ID'
+        Width = 0
+        Visible = False
+        FieldName = 'idusuario'
+      end    
+      item
+        Font.Height = -11
+        Font.Name = 'Sans,default'
+        Title.Font.Color = clWhite
+        Title.Font.Height = -11
+        Title.Font.Name = 'Sans,default'
+        Title.Caption = 'NOME'
+        Width = 210
+        FieldName = 'nome'
+      end    
+      item
+        Font.Height = -11
+        Font.Name = 'Sans,default'
+        Title.Font.Color = clWhite
+        Title.Font.Height = -11
+        Title.Font.Name = 'Sans,default'
+        Title.Caption = 'LOGIN'
+        Width = 100
+        FieldName = 'login'
+      end    
+      item
+        Font.Height = -11
+        Font.Name = 'Sans,default'
+        Title.Font.Color = clWhite
+        Title.Font.Height = -11
+        Title.Font.Name = 'Sans,default'
+        Title.Caption = 'EMAIL'
+        Width = 200
+        FieldName = 'email'
+      end    
+      item
+        Alignment = taCenter
+        Font.Height = -11
+        Font.Name = 'Sans,default'
+        Title.Alignment = taCenter
+        Title.Font.Color = clWhite
+        Title.Font.Height = -11
+        Title.Font.Name = 'Sans,default'
+        Title.Caption = 'ATIVO'
+        Width = 50
+        FieldName = 'ativo'
+      end    
+      item
+        Alignment = taCenter
+        Font.Height = -11
+        Font.Name = 'Sans,default'
+        Title.Font.Color = clWhite
+        Title.Font.Height = -11
+        Title.Font.Name = 'Sans,default'
+        Title.Caption = 'ADMIN'
+        Width = 50
+        FieldName = 'admin'
+      end>
+    FixedColor = clBtnShadow
+    FixedCols = 0
+    Flat = True
+    Options = [dgTitles, dgColumnResize, dgColumnMove, dgRowLines, dgTabs, dgRowSelect, dgConfirmDelete, dgCancelOnExit, dgDisplayMemoText]
+    ReadOnly = True
+    Scrollbars = ssVertical
+    TabOrder = 9
+    OnCellClick = dbgUsuariosCellClick
+    HeaderGradientColorOne = 9836568
+    HeaderGradientColorTwo = 13209230
+    RowGradientColorOne = 7260159
+    RowGradientColorTwo = 12451827
+    SelectedRowColor = 16119014
+    SelectedRowFontColor = 8659747
+    Zebra = True
+    GridLinesColor = clSkyBlue
+    GridRows = 0
+    DefaultBorderColor = clSkyBlue
+  end
+  object lblPesquisaProduto: TLabel
+    Left = 8
+    Height = 16
+    Top = 493
+    Width = 56
+    Caption = 'PESQUISA:'
+  end
+  object lblPesquisaRec: TLabel
+    Left = 340
+    Height = 16
+    Top = 494
+    Width = 62
+    Caption = 'REGISTROS:'
+  end
+  object lblPesquisaRecQde: TLabel
+    Left = 416
+    Height = 16
+    Top = 494
+    Width = 6
+    Caption = '0'
+  end
+  object btnSalvar: TSpeedButton
+    Left = 9
+    Height = 35
+    Top = 264
+    Width = 110
+    Caption = ' Salvar'
+    Images = frmMain.imgMenuItens
+    ImageIndex = 4
+    Spacing = 8
+    OnClick = btnSalvarClick
+  end
+  object btnExcluir: TSpeedButton
+    Left = 126
+    Height = 35
+    Top = 264
+    Width = 110
+    Caption = 'Excluir'
+    Images = frmMain.imgMenuItens
+    ImageIndex = 5
+    Spacing = 8
+    OnClick = btnExcluirClick
+  end
+  object btnNovo: TSpeedButton
+    Left = 242
+    Height = 35
+    Top = 264
+    Width = 110
+    Caption = 'Novo'
+    Images = frmMain.imgMenuItens
+    ImageIndex = 6
+    Spacing = 8
+    OnClick = btnNovoClick
+  end
+  object edtIdUsuario: TMaskedEditPlus
+    Cursor = crIBeam
+    Left = 360
+    Height = 31
+    Top = 112
+    Width = 40
+    Alignment = taLeftJustify
+    Color = 10548982
+    ParentColor = False
+    TabOrder = 8
+    Visible = False
+    BorderColor = 12369599
+    CurrencySymbol = 'R$'
+    DateFmt = edDMY
+    EditMode = emDefault
+    DefaultColor = clWhite
+    FocusedColor = clBlue
+  end
+  object chkIsAdmin: TCheckboxPlus
+    Left = 6
+    Height = 25
+    Top = 60
+    Width = 119
+    Autosize = True
+    TabOrder = 0
+    Caption = 'É Administrador'
+    BorderRadius = 0
+  end
+  object chkIsAtivo: TCheckboxPlus
+    Left = 182
+    Height = 25
+    Top = 60
+    Width = 130
+    Autosize = True
+    TabOrder = 1
+    Checked = True
+    Caption = 'Cadastro Liberado'
+    BorderRadius = 0
+  end
+  object lblLogin: TLabel
+    Left = 8
+    Height = 16
+    Top = 145
+    Width = 49
+    Caption = 'USUÁRIO'
+  end
+  object edtLogin: TMaskedEditPlus
+    Tag = 1
+    Cursor = crIBeam
+    Left = 6
+    Height = 31
+    Top = 164
+    Width = 170
+    Alignment = taLeftJustify
+    Color = clWhite
+    ParentColor = False
+    TabOrder = 3
+    BorderColor = 12369599
+    CurrencySymbol = 'R$'
+    DateFmt = edDMY
+    MaxLength = 50
+    EditMode = emDefault
+    DefaultColor = clWhite
+    FocusedColor = clBlue
+  end
+  object lblSenha: TLabel
+    Left = 181
+    Height = 16
+    Top = 145
+    Width = 35
+    Caption = 'SENHA'
+  end
+  object edtSenha: TMaskedEditPlus
+    Tag = 1
+    Cursor = crIBeam
+    Left = 180
+    Height = 31
+    Top = 164
+    Width = 172
+    Alignment = taLeftJustify
+    Color = clWhite
+    ParentColor = False
+    TabOrder = 4
+    BorderColor = 12369599
+    CurrencySymbol = 'R$'
+    DateFmt = edDMY
+    MaxLength = 50
+    EditMode = emPassword
+    DefaultColor = clWhite
+    PasswordSpy = True
+    FocusedColor = clBlue
+  end
+  object lblNome: TLabel
+    Left = 8
+    Height = 16
+    Top = 94
+    Width = 33
+    Caption = 'NOME'
+  end
+  object edtNome: TMaskedEditPlus
+    Tag = 1
+    Cursor = crIBeam
+    Left = 6
+    Height = 31
+    Top = 113
+    Width = 344
+    Alignment = taLeftJustify
+    Color = clWhite
+    ParentColor = False
+    TabOrder = 2
+    BorderColor = 12369599
+    CurrencySymbol = 'R$'
+    DateFmt = edDMY
+    MaxLength = 50
+    EditMode = emDefault
+    DefaultColor = clWhite
+    FocusedColor = clBlue
+  end
+  object lblEmail: TLabel
+    Left = 8
+    Height = 16
+    Top = 200
+    Width = 33
+    Caption = 'EMAIL'
+  end
+  object edtEmail: TMaskedEditPlus
+    Tag = 1
+    Cursor = crIBeam
+    Left = 6
+    Height = 31
+    Top = 219
+    Width = 344
+    Alignment = taLeftJustify
+    Color = clWhite
+    ParentColor = False
+    TabOrder = 5
+    BorderColor = 12369599
+    CurrencySymbol = 'R$'
+    DateFmt = edDMY
+    MaxLength = 100
+    EditMode = emDefault
+    DefaultColor = clWhite
+    FocusedColor = clBlue
+  end
+end

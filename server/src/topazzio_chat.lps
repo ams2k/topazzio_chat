@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="12"/>
+    <BuildModes Active="Linux"/>
+    <Units>
+      <Unit>
+        <Filename Value="topazzio_chat.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="235"/>
+        <CursorPos X="7" Y="242"/>
+        <UsageCount Value="102"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="datamodule/dm.server.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DMServer"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="DM.Server"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="337"/>
+        <CursorPos Y="352"/>
+        <UsageCount Value="101"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.mensagem.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Service.Mensagem"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="852"/>
+        <CursorPos X="38" Y="767"/>
+        <UsageCount Value="101"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.idioma.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Service.Idioma"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="9"/>
+        <CursorPos Y="21"/>
+        <UsageCount Value="75"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../../lazarus-ide/fpcsrc/packages/fcl-base/src/custapp.pp"/>
+        <UnitName Value="CustApp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="337"/>
+        <CursorPos X="3" Y="341"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../../lazarus-ide/config_lazarus/onlinepackagemanager/packages/lnet/lib/lnetssl.pp"/>
+        <UnitName Value="lNetSSL"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4"/>
+        <UsageCount Value="6"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../../lazarus-ide/config_lazarus/onlinepackagemanager/packages/lnet/lib/lnet.pp"/>
+        <UnitName Value="lNet"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="847"/>
+        <CursorPos X="3" Y="849"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../../lazarus-ide/fpcsrc/packages/fcl-json/src/fpjson.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3965"/>
+        <CursorPos X="3" Y="3971"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../../lazarus-ide/fpcsrc/rtl/objpas/classes/classesh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="279"/>
+        <CursorPos X="3" Y="298"/>
+        <UsageCount Value="7"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../morderui-packages/LabelPlusPackage/labelplus.pas"/>
+        <UnitName Value="LabelPlus"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="262"/>
+        <CursorPos X="45" Y="441"/>
+        <UsageCount Value="8"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../morderui-packages/CheckboxPlusPackage/checkboxplus.pas"/>
+        <UnitName Value="CheckBoxPlus"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="197"/>
+        <UsageCount Value="8"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../morderui-packages/ButtonPlusPackage/buttonplus.pas"/>
+        <UnitName Value="ButtonPlus"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="607"/>
+        <CursorPos X="30" Y="343"/>
+        <UsageCount Value="8"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../../lazarus-ide/fpcsrc/packages/rtl-objpas/src/inc/strutils.pp"/>
+        <UnitName Value="StrUtils"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="998"/>
+        <CursorPos X="3" Y="1012"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../../lazarus-ide/fpcsrc/rtl/inc/astrings.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1473"/>
+        <CursorPos Y="1479"/>
+        <UsageCount Value="9"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="topazzio_chat.lpr"/>
+        <Caret Line="368" Column="50" TopLine="351"/>
+      </Position>
+      <Position>
+        <Filename Value="topazzio_chat.lpr"/>
+        <Caret Line="86" Column="27" TopLine="70"/>
+      </Position>
+      <Position>
+        <Filename Value="topazzio_chat.lpr"/>
+        <Caret Line="448" Column="20" TopLine="434"/>
+      </Position>
+      <Position>
+        <Filename Value="topazzio_chat.lpr"/>
+        <Caret Line="81" Column="24" TopLine="72"/>
+      </Position>
+      <Position>
+        <Filename Value="topazzio_chat.lpr"/>
+        <Caret Line="1118" Column="75" TopLine="1110"/>
+      </Position>
+      <Position>
+        <Filename Value="topazzio_chat.lpr"/>
+        <Caret Line="494" Column="40" TopLine="479"/>
+      </Position>
+      <Position>
+        <Filename Value="topazzio_chat.lpr"/>
+        <Caret Line="88" Column="28" TopLine="74"/>
+      </Position>
+      <Position>
+        <Filename Value="topazzio_chat.lpr"/>
+        <Caret Line="449" Column="19" TopLine="441"/>
+      </Position>
+      <Position>
+        <Filename Value="topazzio_chat.lpr"/>
+        <Caret Line="81" Column="22" TopLine="71"/>
+      </Position>
+      <Position>
+        <Filename Value="topazzio_chat.lpr"/>
+        <Caret Line="492" Column="41" TopLine="440"/>
+      </Position>
+      <Position>
+        <Filename Value="topazzio_chat.lpr"/>
+        <Caret Line="81" Column="25" TopLine="71"/>
+      </Position>
+      <Position>
+        <Filename Value="topazzio_chat.lpr"/>
+        <Caret Line="1126" Column="42" TopLine="1116"/>
+      </Position>
+      <Position>
+        <Filename Value="topazzio_chat.lpr"/>
+        <Caret Line="88" Column="27" TopLine="72"/>
+      </Position>
+      <Position>
+        <Filename Value="topazzio_chat.lpr"/>
+        <Caret Line="1257" Column="50" TopLine="1255"/>
+      </Position>
+      <Position>
+        <Filename Value="topazzio_chat.lpr"/>
+        <Caret Line="449" Column="19" TopLine="429"/>
+      </Position>
+      <Position>
+        <Filename Value="topazzio_chat.lpr"/>
+        <Caret Line="81" Column="23" TopLine="69"/>
+      </Position>
+      <Position>
+        <Filename Value="topazzio_chat.lpr"/>
+        <Caret Line="1132" Column="3" TopLine="1126"/>
+      </Position>
+      <Position>
+        <Filename Value="topazzio_chat.lpr"/>
+        <Caret Line="449" Column="18" TopLine="442"/>
+      </Position>
+      <Position>
+        <Filename Value="topazzio_chat.lpr"/>
+        <Caret Line="81" Column="29" TopLine="69"/>
+      </Position>
+      <Position>
+        <Filename Value="topazzio_chat.lpr"/>
+        <Caret Line="1126" Column="42" TopLine="1118"/>
+      </Position>
+      <Position>
+        <Filename Value="topazzio_chat.lpr"/>
+        <Caret Line="241" Column="27" TopLine="231"/>
+      </Position>
+      <Position>
+        <Filename Value="topazzio_chat.lpr"/>
+        <Caret Line="242" Column="3" TopLine="240"/>
+      </Position>
+      <Position>
+        <Filename Value="topazzio_chat.lpr"/>
+        <Caret Line="259" Column="47" TopLine="1458"/>
+      </Position>
+      <Position>
+        <Filename Value="topazzio_chat.lpr"/>
+        <Caret Line="90" Column="17" TopLine="79"/>
+      </Position>
+      <Position>
+        <Filename Value="topazzio_chat.lpr"/>
+        <Caret Line="197" Column="3" TopLine="199"/>
+      </Position>
+      <Position>
+        <Filename Value="topazzio_chat.lpr"/>
+        <Caret Line="226" Column="21" TopLine="218"/>
+      </Position>
+      <Position>
+        <Filename Value="topazzio_chat.lpr"/>
+        <Caret Line="242" Column="9" TopLine="235"/>
+      </Position>
+      <Position>
+        <Filename Value="services/service.idioma.pas"/>
+        <Caret Line="96" Column="3" TopLine="94"/>
+      </Position>
+      <Position>
+        <Filename Value="services/service.idioma.pas"/>
+        <Caret Line="21" Column="34" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="services/service.idioma.pas"/>
+        <Caret Line="87" TopLine="85"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
