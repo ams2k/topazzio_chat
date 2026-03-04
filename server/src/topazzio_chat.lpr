@@ -203,6 +203,7 @@ begin
   if (lparams <> '') then begin
     if (lparams.Contains('--help')) then begin
       WriteHelp;
+      FAppTerminado := False;
       Terminate;
       Exit;
     end;
@@ -1409,8 +1410,8 @@ procedure TTopazzioChatServer.WriteHelp;
 begin
   { add your help code here }
   WriteLn(' ');
-  WriteLn('Help - Topazzio Chat');
-  WriteLn('--help     --> help');
+  WriteLn('Help - Topazzio Chat Server');
+  WriteLn('--help     --> Help');
   WriteLn('--log      --> ' + TUtilIdioma.Help_Msg1(FLanguage));
   WriteLn('--lang=br  --> ' + TUtilIdioma.Help_Msg2(FLanguage));
   WriteLn(' ');

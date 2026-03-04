@@ -35,11 +35,7 @@ Exemplo: Porta padrão do servidor: 9022 (TCP)
   Se aparecer algo assim, é porque deu certo:
 
   LISTEN 0.0.0.0:9022
-  
-  ou
-
-  LISTEN 0      5       192.168.1.20:9022       0.0.0.0:*    users:(("topazzio_chat",pid=58264,fd=4))
-
+    
   
 ## Fonte de Emoji compatível com Linux e Windows
 
