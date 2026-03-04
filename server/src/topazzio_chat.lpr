@@ -365,8 +365,8 @@ begin
   if FLogAtivado then Log( lMsg );
 
   // força a conversão para UTF8 para funcionar acentuação e EMOJI
-  if StringCodePage(lMsg) = 0 then
-    lMsg := UTF8Encode( lMsg );
+  //if StringCodePage(lMsg) = 0 then
+  lMsg := UTF8Encode( lMsg );
 
   if FLogAtivado then
     Log(Format('CodePage: %d', [StringCodePage(lMsg)])); // se for 0, não é UTF8
