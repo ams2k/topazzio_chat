@@ -1,4 +1,4 @@
-# TOPAZZIO CHAT
+# TOPAZZIO CHAT SERVER
 
 ## Firewall
 
